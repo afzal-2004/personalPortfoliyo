@@ -10,7 +10,7 @@ export const Projects = () => {
       .get("/data.json")
       .then((responce) => {
         setdata(responce.data);
-        console.log(responce.data);
+        // console.log(responce.data);
       })
       .catch((e) => console.log(e));
   }, []);
