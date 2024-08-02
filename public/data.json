@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Video Tube",
+        "image": "./videoHub.png",
+        "hostLink": "https://video-hub-mauve.vercel.app",
+        "description": " A simple UI for uploading and viewing videos, demonstrating efficient handling of media content with React , tailwind and Material library"
+    },
+    {
+        "name": "Calculator",
+        "image": "./Calculator.png",
+        "hostLink": "https://simple-calculator-nu-ten.vercel.app",
+        "description": " A basic and functional calculator built with HTML, CSS, and JavaScript, capable of performing standard arithmetic operations."
+    },
+    {
+        "name": "Clock",
+        "image": "./Clock.png",
+        "hostLink": "https://clock-six-theta.vercel.app",
+        "description": " A digital clock displaying the current time, created using HTML, CSS, and JavaScript."
+    },
+    {
+        "name": "Cricket",
+        "image": "./Cricket.png",
+        "hostLink": "https://game-lac-three.vercel.app",
+        "description": " An interactive game where users can play rock-paper-scissors against the computer, implemented with HTML, CSS, and JavaScript"
+    },
+    {
+        "name": "Roll Dics",
+        "image": "./DicyRoll.png",
+        "hostLink": "https://dics-game.vercel.app",
+        "description": "A random number generation-based game where users roll a disc to achieve a target score, developed with Tailwind And React"
+    },
+    {
+        "name": "New Techno ",
+        "image": "./NewTechno.png",
+        "hostLink": "https://new-techno.vercel.app",
+        "description": " A visually appealing and user-friendly UI page showcasing modern design principles and responsive layout"
+    },
+    {
+        "name": "Nike Landing Page ",
+        "image": "./Nike.png",
+        "hostLink": "https://nike-nine-weld.vercel.app",
+        "description": " A sleek and professional landing page for Nike, highlighting products and brand aesthetics using React And Tailwind Css."
+    },
+    {
+        "name": "Password Genrator ",
+        "image": "./PasswordGenrator.png",
+        "hostLink": "https://password-genrator-nu.vercel.app",
+        "description": "A secure password generator tool that creates strong and random passwords, built with  Tailwind CSS and React."
+    },
+    {
+        "name": "Crypto App",
+        "image": "./QuantamCoin.png",
+        "hostLink": "https://coin-exchange-eight.vercel.app",
+        "description": " A real-time cryptocurrency tracking app fetching data from the CoinGecko API, providing users with up-to-date market information."
+    }
+]

@@ -1,0 +1,38 @@
+.Services {
+    @apply bg-blue-400 max-w-[80vw] min-h-[70vh] m-auto mt-[10vh] rounded-xl flex flex-col justify-center p-4 gap-4;
+}
+
+.Experience_time {
+    @apply bg-white min-h-[350px] p-3 flex justify-center items-center w-[30%] rounded-lg;
+}
+
+.card {
+    @apply bg-white w-[50%] h-[150px] p-3 rounded-lg;
+    box-shadow: 4px 4px 4px rgba(220, 220, 220, 1), -4px -4px 4px rgba(220, 220, 220, 1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.tansitionClass {
+    transition: transform 0.2s ease-in-out;
+}
+
+.tansitionClass:hover {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.boxShodow {
+    box-shadow: 4px 4px 4px rgba(220, 220, 220, 1), -4px -4px 4px rgba(220, 220, 220, 1);
+
+}
+
+.carditems {
+    @apply flex flex-col items-center justify-center mt-auto h-full gap-3;
+}
+
+.utiityClass {
+    @apply flex flex-col justify-center items-center
+}

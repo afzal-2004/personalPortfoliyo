@@ -1,0 +1,25 @@
+.Experience {
+    @apply max-w-[60vw] min-h-[70vh] flex flex-col items-center rounded-tr-[150px] rounded-br-[150px] mt-[5%] p-4 justify-center;
+
+    background-color: rgb(218, 214, 209);
+
+}
+
+.webpngAnimate {
+    animation: Animateimage 2s ease-in-out infinite;
+}
+
+@keyframes Animateimage {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

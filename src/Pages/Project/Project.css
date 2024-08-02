@@ -1,0 +1,4 @@
+.imageOfProject {
+    @apply w-[350px] h-[350px] rounded-xl flex justify-center items-center;
+    box-shadow: 5px 5px 5px rgb(133, 163, 193), -5px -5px 5px rgb(133, 163, 193);
+}

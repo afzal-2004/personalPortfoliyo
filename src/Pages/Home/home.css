@@ -1,0 +1,40 @@
+.btnSocialMedia {
+    @apply hover:bg-black border border-red-200 py-1 px-3 hover:text-white flex items-center w-[50px] h-[50px] rounded-full justify-center;
+}
+
+
+.homeImage {
+    @apply w-[600px] h-[600px] object-fill rounded-full float-end;
+    filter: drop-shadow(10px 10px 10px rgba(55, 55, 55, 1)) hue-rotate(150deg);
+
+}
+
+.dropfilter {
+    filter: drop-shadow(10px 10px 10px rgba(55, 55, 55, 1)) hue-rotate(100deg);
+}
+
+.projectbtn {
+    @apply flex justify-center items-center border border-red-300 p-2 rounded-lg bg-red-400 text-white gap-3;
+}
+
+
+
+.webpngAnimate {
+    @apply object-contain float-right rounded-full dropfilter;
+    animation: Animateimage 2s ease-in-out infinite;
+}
+
+@keyframes Animateimage {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
