@@ -34,5 +34,13 @@
 }
 
 .utiityClass {
-    @apply flex flex-col justify-center items-center
+    @apply flex flex-col justify-center items-center;
+}
+
+.utlityText {
+    @apply text-wrap text-[15px] sm:text-[18px];
+}
+
+.SkillsImage {
+    @apply max-w-[90px] max-h-[90px];
 }

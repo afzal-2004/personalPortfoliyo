@@ -4,7 +4,7 @@
 
 
 .homeImage {
-    @apply w-[600px] h-[600px] object-fill rounded-full float-end;
+    @apply xl:w-[600px] xl:h-[600px] h-[350px] w-[350px] object-fill rounded-full float-end;
     filter: drop-shadow(10px 10px 10px rgba(55, 55, 55, 1)) hue-rotate(150deg);
 
 }
@@ -20,7 +20,7 @@
 
 
 .webpngAnimate {
-    @apply object-contain float-right rounded-full dropfilter;
+    @apply object-contain float-right rounded-full dropfilter w-[250px] justify-between mt-[70px] sm:m-0 md:w-full;
     animation: Animateimage 2s ease-in-out infinite;
 }
 

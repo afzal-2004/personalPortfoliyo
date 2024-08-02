@@ -10,7 +10,7 @@ export const Skills = () => {
   const skillsdata = [
     //    PROGRAMMING LANGUAGE
     {
-      Name1: "Programming language",
+      Name1: "languages",
       image2: "/SkillsImage/C.png",
       Name2: "C",
       image3: "/SkillsImage/Java.png",
@@ -72,24 +72,24 @@ export const Skills = () => {
   return (
     <div
       id="Skills"
-      className="mt-[10vh] flex  w-[90%] m-auto gap-[3%]  items-center "
+      className="mt-[10vh]  flex flex-col-reverse sm:flex-row  w-[90%] min-h-[70vh] sm:min-h-[50vh] m-auto gap-[3%]  items-center "
     >
       <div>
         <img src={SkiiImage} alt="" className=" webpngAnimate" />
       </div>
-      <div className=" bg-[#DAD6D1] max-w-[60vw]  min-h-[70vh]  p-4 flex  flex-col  justify-evenly gap-3  rounded-lg  m-auto  ">
+      <div className=" bg-[#DAD6D1] sm:max-w-[60vw]  max-w-[100vw] xl:min-h-[70vh]  sm:min-h-[50vh]  p-4 flex  flex-col  justify-evenly gap-3  rounded-lg  sm:m-auto  ">
         <h1 className="text-center "> Skills</h1>
 
         <Carousel showThumbs={false}>
           {skillsdata.map((data, i) => (
             <main
               key={i}
-              className="w-full min-h-[350px] bg-blue-300  flex  justify-between p-[25px]  rounded-lg m-auto"
+              className="w-full sm:min-h-[350px] h-[300px]  bg-blue-300  flex  justify-between p-[25px]  rounded-lg m-auto"
             >
               <>
-                <section className="  w-[28%]  bg-white rounded-md boxShodow tansitionClass  utiityClass">
-                  <img src={Skill} alt="" className="max-w-[50%] " />
-                  <h4 className="text-wrap">{skillsdata[i].Name1}</h4>
+                <section className="  w-[28%]  bg-white rounded-md boxShodow tansitionClass  utiityClass  ">
+                  <img src={Skill} alt="" className="max-w-[50%]  " />
+                  <h4 className="utlityText">{skillsdata[i].Name1}</h4>
                 </section>
                 <section className="  flex flex-col  w-[68%]  justify-between   ">
                   <div className=" flex  w-full h-[45%]  justify-between">
@@ -100,9 +100,9 @@ export const Skills = () => {
                       <img
                         src={skillsdata[i].image2}
                         alt=""
-                        className="max-w-[90px] max-h-[90px] "
+                        className="SkillsImage "
                       />
-                      <h4 className="text-wrap">{skillsdata[i].Name2}</h4>
+                      <h4 className="utlityText">{skillsdata[i].Name2}</h4>
                     </div>
                     <div
                       className="  bg-white w-[47%] rounded-md   boxShodow tansitionClass  utiityClass
@@ -111,14 +111,14 @@ export const Skills = () => {
                       <img
                         src={skillsdata[i].image3}
                         alt=""
-                        className="max-w-[90px] max-h-[90px] "
+                        className="SkillsImage "
                       />
-                      <h4 className="text-wrap">{skillsdata[i].Name3}</h4>
+                      <h4 className="utlityText">{skillsdata[i].Name3}</h4>
                     </div>
                   </div>
                   <section
                     className={` ${
-                      i !== 4 && "flex  justify-between h-[45%]"
+                      i !== 4 && "flex  justify-between sm:h-[45%] "
                     } ${i == 1 && "hidden"}`}
                   >
                     <div
@@ -129,9 +129,9 @@ export const Skills = () => {
                       <img
                         src={skillsdata[i].image4}
                         alt=""
-                        className="max-w-[90px] max-h-[90px] "
+                        className=" SkillsImage"
                       />
-                      <h4 className="text-wrap">{skillsdata[i].Name4}</h4>
+                      <h4 className="utlityText">{skillsdata[i].Name4}</h4>
                     </div>
                     <div
                       className={`${
@@ -141,9 +141,9 @@ export const Skills = () => {
                       <img
                         src={skillsdata[i].image5}
                         alt=""
-                        className="max-w-[90px] max-h-[90px] "
+                        className="SkillsImage "
                       />
-                      <h4 className="text-wrap">{skillsdata[i].Name5}</h4>
+                      <h4 className="utlityText">{skillsdata[i].Name5}</h4>
                     </div>
                   </section>
                 </section>

@@ -10,11 +10,11 @@ export const Services = () => {
         <h1 className="text-center">Service</h1>
         <div className=" flex gap-[20px] w-[80%] m-auto   ">
           <section className="Experience_time boxShodow tansitionClass">
-            <h4 className=" text-[20px] p-4 ">
+            <h2 className=" text-[20px] p-4 ">
               {" "}
-              4+ Months hands
+              1 Year hands
               <br /> On Experience
-            </h4>
+            </h2>
           </section>
 
           <section className="  flex flex-col  w-[70%]  justify-between">

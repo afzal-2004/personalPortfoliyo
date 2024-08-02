@@ -82,15 +82,18 @@ export const Home = () => {
   );
   return (
     <>
-      <div id="Home" className=" flex justify-between  m-[20px] h-[90vh]">
+      <div
+        id="Home"
+        className=" sm:flex justify-between  m-[20px]  sm:h-[90vh]"
+      >
         <section
           ref={container}
-          className=" min-w-[50%] flex flex-col items-center justify-center gap-y-4 relative"
+          className=" md:min-w-[50%]  flex flex-col items-center justify-center gap-y-4 relative h-[80vh] sm:h-auto"
         >
-          <p className="Text text-[35px]  font-bold"> Hello I am Afzal</p>
+          <p className="Text text-[35px]  font-bold  "> Hello I am Afzal</p>
           <Typewriter text={"  A Full Stack  Web devloper"} duration={4} />
 
-          <div className=" flex gap-4">
+          <div className="  flex  flex-wrap gap-4  justify-center">
             {ContactData.map((data, i) => (
               <div key={i}>
                 <a href={`${data.href}`}>
@@ -104,7 +107,7 @@ export const Home = () => {
               </div>
             ))}
           </div>
-          <div className="  w-[30%]  flex justify-between mt-[5%]">
+          <div className="  w-[70%] xl:w-[30%]  flex justify-between mt-[5%]">
             <a href="#Projects">
               <button className="projectbtn ">
                 {" "}
@@ -120,13 +123,13 @@ export const Home = () => {
             </a>
           </div>
           <div ref={icon}>
-            <FaChevronDown className=" text-[35px] text-center absolute  bottom-0 right-0 icons" />
+            <FaChevronDown className=" text-[35px] text-center absolute  sm:bottom-0 sm:right-0 icons bottom-5" />
           </div>
         </section>
 
         <section
           className="   p-3   
-      w-[50%]  flex  justify-center items-center "
+     xl:w-[50%]  flex  justify-center items-center "
         >
           <img src={image1} alt="" className="homeImage " />
         </section>
