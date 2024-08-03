@@ -32,9 +32,13 @@ h3 {
 }
 
 h1 {
-    font-size: 25px;
+    @apply text-[18px] sm:text-[25px];
     font-weight: 600;
     word-wrap: 2px;
+}
+
+h2 {
+    @apply text-[15px] sm:text-[25px];
 }
 
 h4 {
@@ -51,4 +55,8 @@ input {
 
 label {
     font-size: 20px;
+}
+
+p {
+    @apply sm:text-[18px] text-[13px]
 }

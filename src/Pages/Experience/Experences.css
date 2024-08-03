@@ -1,11 +1,12 @@
 .Experience {
-    @apply max-w-[60vw] min-h-[70vh] flex flex-col items-center rounded-tr-[150px] rounded-br-[150px] mt-[5%] p-4 justify-center;
+    @apply sm:max-w-[60vw] sm:min-h-[70vh] flex flex-col items-center sm:rounded-tr-[150px] sm:rounded-br-[150px] mt-[5%] p-4 justify-center;
 
     background-color: rgb(218, 214, 209);
 
 }
 
 .webpngAnimate {
+    @apply min-w-[350px] min-h-[350px];
     animation: Animateimage 2s ease-in-out infinite;
 }
 

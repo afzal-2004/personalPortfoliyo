@@ -2,8 +2,12 @@ import "./Experences.css";
 import Intern from "/webDevIntern.webp";
 export const Experiences = () => {
   return (
-    <div id="Experience" className=" flex items-center justify-center">
+    <div
+      id="Experience"
+      className="    sm:flex-row flex-col flex items-center justify-center"
+    >
       <section className="Experience  gap-4">
+        <h1 className="text-red-400"> Experience</h1>
         <div className=" gap-1">
           <h1>Front End Devloper </h1>
           <p>(First Ricoz Private Limited)</p>
@@ -39,8 +43,9 @@ export const Experiences = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <img src={Intern} alt="" className="webpngAnimate" />
+      <section className="flex  flex-col justify-around">
+        <img src={Intern} alt="" className=" webpngAnimate  " />
+        <h1 className="text-center"> Web Developer</h1>
       </section>
     </div>
   );

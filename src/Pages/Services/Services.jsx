@@ -8,17 +8,17 @@ export const Services = () => {
     <>
       <div id="Service" className="Services    ">
         <h1 className="text-center">Service</h1>
-        <div className=" flex gap-[20px] w-[80%] m-auto   ">
+        <div className=" flex gap-[15px] sm:gap-[20px] sm:w-[80%] w-[90%] m-auto   ">
           <section className="Experience_time boxShodow tansitionClass">
-            <h2 className=" text-[20px] p-4 ">
+            <h2 className="  p-4 ">
               {" "}
               1 Year hands
               <br /> On Experience
             </h2>
           </section>
 
-          <section className="  flex flex-col  w-[70%]  justify-between">
-            <section className="flex gap-[20px]  w-full">
+          <section className="  flex flex-col  w-[70%]  justify-between gap-3 sm:gap-0">
+            <section className="flex sm:gap-[20px] gap-[10px]  w-full">
               <div className="  card  ">
                 <h4 className="carditems  ">
                   <FaFirefoxBrowser className=" text-[30px]" />

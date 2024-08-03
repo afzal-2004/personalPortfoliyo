@@ -66,6 +66,27 @@ export const Footer = () => {
                 </ul>
               </div>
               <div>
+                <h2 className="mb-6 text-sm font-semibold ">Connect Us </h2>
+                <ul className="font-medium">
+                  <li className="mb-4">
+                    <a
+                      href="tel:+919520752384"
+                      className="hover:underline text-blue-500"
+                    >
+                      +91 95200752384
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:moa44468@gmail.com"
+                      className="hover:underline  text-blue-500"
+                    >
+                      moa44468@gmail.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
                 <a href="#">
                   <BiUpArrowCircle className="text-[50px]  text-red-500" />
                 </a>
