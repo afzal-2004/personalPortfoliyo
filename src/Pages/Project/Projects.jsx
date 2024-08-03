@@ -17,17 +17,11 @@ export const Projects = () => {
 
   return (
     <div id="Projects" className="mt-[10vh]">
-      <Carousel
-        infiniteLoop
-        interval={1000}
-        showArrows={false}
-        showThumbs={false}
-        showStatus={false}
-      >
+      <Carousel showThumbs={false} showStatus={false}>
         {data.map((items, i) => (
           <div
             key={i}
-            className="sm:max-w-[80vw] sm:min-h-[70vh] h-[50vh] sm:ml-[10vw] bg-blue-400 flex  items-center rounded-md  justify-center"
+            className="sm:max-w-[80vw] sm:min-h-[70vh] min-h-[50vh] sm:ml-[10vw] bg-blue-400 flex  items-center rounded-md  justify-center"
           >
             <section className="flex  items-center bg-white m-auto w-[80%] rounded-2xl max h-[70%] ">
               <div

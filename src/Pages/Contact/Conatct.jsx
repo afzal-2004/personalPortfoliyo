@@ -20,7 +20,7 @@ export const Conatct = () => {
       setName("");
       setemail("");
 
-      toast.success("Saved Data Thanks");
+      toast.success("Saved Data  Successfully");
     }
   };
   return (
@@ -28,13 +28,13 @@ export const Conatct = () => {
       id="Conatct"
       className=" flex  sm:flex-row
        flex-col  items-center justify-between
-    mt-[10vh]   m-auto  xl:min-h-[70vh]   md:min-h-[50vh] gap-[3%]  sm:w-[90%] min-h-[130vh] "
+   sm:mt-[10vh] mt-[5vh]   m-auto  xl:min-h-[70vh]   md:min-h-[50vh] gap-[3%]  sm:w-[90%] min-h-[130vh] "
     >
-      <section className=" ">
+      <section className=" min-h-[50vh] mb-[5vh] ">
         <img
           src={Contactimg}
           alt=""
-          className="  sm:object-contain sm:float-right dropfilter    rounded-full   w-[300px]  sm:w-[500px] "
+          className="  sm:object-contain sm:float-right dropfilter    rounded-full   w-[300px]  sm:w-[500px] min-h[] "
         />
       </section>
       <section className=" bg-[#DAD6D1] sm:min-w-[60vw] w-[100vw] min-h-[70vh] sm:rounded-tl-[150px] sm:rounded-bl-[150px] flex  flex-col items-center sm:p-4 ">

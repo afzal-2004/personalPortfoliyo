@@ -1,0 +1,9 @@
+.NavItems {
+    @apply flex justify-between bg-blue-300 p-3 text-[18px] items-center fixed top-0 z-20 w-full;
+}
+
+.MobileItems {
+
+
+    @apply bg-slate-500 min-h-[90vh] w-full text-[30px] flex flex-col justify-between items-center absolute z-40 top-0;
+}

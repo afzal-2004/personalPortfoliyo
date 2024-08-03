@@ -12,7 +12,7 @@ export const Services = () => {
           <section className="Experience_time boxShodow tansitionClass">
             <h2 className="  p-4 ">
               {" "}
-              1 Year hands
+              1 Year Of hands
               <br /> On Experience
             </h2>
           </section>

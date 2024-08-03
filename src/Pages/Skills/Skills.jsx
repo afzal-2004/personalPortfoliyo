@@ -81,7 +81,7 @@ export const Skills = () => {
       <div className=" bg-[#DAD6D1] sm:max-w-[60vw]  max-w-[100vw] xl:min-h-[70vh]  sm:min-h-[50vh]  p-4 flex  flex-col  justify-evenly gap-3  rounded-lg  sm:m-auto  ">
         <h1 className="text-center "> Skills</h1>
 
-        <Carousel showThumbs={false}>
+        <Carousel showThumbs={false} showStatus={false}>
           {skillsdata.map((data, i) => (
             <main
               key={i}

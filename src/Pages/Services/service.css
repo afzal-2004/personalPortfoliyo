@@ -1,5 +1,5 @@
 .Services {
-    @apply bg-blue-400 sm:max-w-[80vw] xl:min-h-[70vh] h-[50vh] m-auto mt-[10vh] rounded-xl flex flex-col justify-center p-4 gap-4;
+    @apply bg-blue-400 sm:max-w-[80vw] xl:min-h-[70vh] min-h-[50vh] m-auto mt-[10vh] rounded-xl flex flex-col justify-center p-4 gap-4;
 }
 
 .Experience_time {
