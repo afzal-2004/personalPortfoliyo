@@ -8,13 +8,13 @@ export const Experiences = () => {
     >
       <section className="Experience  gap-4">
         <h1 className="text-red-400"> Experience</h1>
-        <div className=" gap-1">
-          <h1>Front End Devloper </h1>
+        <div className=" gap-1 flex flex-col  items-center">
+          <h4>Front End Devloper </h4>
           <p>(First Ricoz Private Limited)</p>
         </div>
 
         <div className=" w-[80%]">
-          <h4 className="  font-semibold text-[20px]">
+          <h4 className="  font-semibold text-[18px]">
             During my internship at First Ricoz Private Limited, I had the
             opportunity to work on various exciting projects and enhance my
             skills in software development. My main responsibilities included:

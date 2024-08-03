@@ -32,8 +32,8 @@ h3 {
 }
 
 h1 {
-    @apply text-[18px] sm:text-[25px];
-    font-weight: 600;
+    @apply text-[20px] sm:text-[25px];
+    font-weight: 800;
     word-wrap: 2px;
 }
 
@@ -59,4 +59,8 @@ label {
 
 p {
     @apply sm:text-[18px] text-[13px]
+}
+
+li {
+    font-size: 15px;
 }

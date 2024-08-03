@@ -4,7 +4,7 @@
 
 
 .homeImage {
-    @apply xl:w-[600px] xl:h-[600px] h-[350px] w-[350px] object-fill rounded-full float-end;
+    @apply xl:w-[600px] xl:h-[600px] h-[300px] w-[300px] object-fill rounded-full float-end;
     filter: drop-shadow(10px 10px 10px rgba(55, 55, 55, 1)) hue-rotate(150deg);
 
 }

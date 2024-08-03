@@ -107,7 +107,7 @@ export const Home = () => {
               </div>
             ))}
           </div>
-          <div className="  w-[70%] xl:w-[30%]  flex justify-between mt-[5%]">
+          <div className="  w-[90%] sm:w-[70%] xl:w-[30%]  flex justify-between mt-[5%]">
             <a href="#Projects">
               <button className="projectbtn ">
                 {" "}

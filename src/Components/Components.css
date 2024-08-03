@@ -5,5 +5,5 @@
 .MobileItems {
 
 
-    @apply bg-slate-500 min-h-[90vh] w-full text-[30px] flex flex-col justify-between items-center absolute z-40 top-0;
+    @apply bg-slate-500 min-h-[70vh] w-full text-[18px] flex flex-col justify-between items-center absolute z-40 top-0;
 }

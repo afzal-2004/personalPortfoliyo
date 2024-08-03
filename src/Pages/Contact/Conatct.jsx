@@ -41,7 +41,7 @@ export const Conatct = () => {
         <h1>Contact me </h1>
         <form
           action=""
-          className="gap-3 xl-[45%]  w-[80%] md:w-[70%] p-2"
+          className="gap-3 xl-[45%]  w-[90%] md:w-[70%] p-2"
           onSubmit={HandelSumbit}
         >
           <div className="mt-[20px] flex flex-col ">
