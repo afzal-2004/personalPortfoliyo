@@ -30,7 +30,7 @@ export const Home = () => {
     {
       icon: (
         <BsFillTelephoneFill
-          className="text-[20px] 
+          className="text-[20px]
       "
         />
       ),

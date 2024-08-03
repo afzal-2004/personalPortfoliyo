@@ -72,10 +72,11 @@ export const Skills = () => {
   return (
     <div
       id="Skills"
-      className="mt-[10vh]  flex flex-col-reverse sm:flex-row  w-[90%] min-h-[70vh] sm:min-h-[50vh] m-auto gap-[3%]  items-center "
+      className="mt-[10vh]  flex flex-col-reverse sm:flex-row   
+      w-[90%] min-h-[70vh] sm:min-h-[50vh] m-auto gap-[3%]  items-center "
     >
       <div>
-        <img src={SkiiImage} alt="" className=" webpngAnimate" />
+        <img src={SkiiImage} alt="" className=" webpngAnimate " />
       </div>
       <div className=" bg-[#DAD6D1] sm:max-w-[60vw]  max-w-[100vw] xl:min-h-[70vh]  sm:min-h-[50vh]  p-4 flex  flex-col  justify-evenly gap-3  rounded-lg  sm:m-auto  ">
         <h1 className="text-center "> Skills</h1>
