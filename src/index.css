@@ -50,7 +50,7 @@ a {
 }
 
 input {
-    @apply p-1 outline-none rounded-md;
+    @apply p-2 outline-none rounded-md;
 }
 
 label {

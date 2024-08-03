@@ -11,13 +11,17 @@ export const Conatct = () => {
 
   const HandelSumbit = (e) => {
     e.preventDefault();
-    // console.log(e.taget.value);
-    console.log(Name, email, contact, Message);
-    setMessage("");
-    setcontact("");
-    setName("");
-    setemail("");
-    toast.success("Saved Data Thanks");
+    if (Name === "" || email === "" || contact === "" || Message === "") {
+      toast.error("Plesae Fill all  Fields");
+    } else {
+      console.log(Name, email, contact, Message);
+      setMessage("");
+      setcontact("");
+      setName("");
+      setemail("");
+
+      toast.success("Saved Data Thanks");
+    }
   };
   return (
     <div
@@ -44,6 +48,7 @@ export const Conatct = () => {
             <label htmlFor="Name">Name</label>
             <input
               type="text"
+              required
               placeholder="Your Name"
               value={Name}
               onChange={(e) => {
@@ -69,6 +74,7 @@ export const Conatct = () => {
             <label htmlFor="Contact">Contact</label>
             <input
               type="text"
+              required
               placeholder=" Your Contact Number"
               value={contact}
               onChange={(e) => {
