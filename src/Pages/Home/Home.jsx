@@ -115,7 +115,7 @@ export const Home = () => {
                 <FiArrowUpRight className="text-[20px]" />
               </button>
             </a>
-            <a href="https://docs.google.com/document/d/1aGAf75fBvOClSDV8EqnQkZSCWERD8ZJV-h0dHIBblLM/edit?usp=sharing">
+            <a href="https://docs.google.com/document/d/1FpMGAolNkYDKL_JI1CNm9hIrTBmzKTd8w6l9XXGUTnU">
               <button className="projectbtn ">
                 Resume
                 <IoDocumentTextOutline className="text-[20px]" />
