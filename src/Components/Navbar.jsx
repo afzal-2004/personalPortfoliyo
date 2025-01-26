@@ -7,18 +7,20 @@ export const Navbar = () => {
   const [openMenu, setopenMenu] = useState(false);
   return (
     <>
-      <div className="  absolute NavItems">
-        <NavItems />
+      <nav className="  fixed top-0 left-0 w-full z-50 ">
+        <div className="  absolute NavItems top-0 ">
+          <NavItems />
 
-        <TiThMenu
-          className=" sm:hidden z-50"
-          onClick={() => {
-            setopenMenu(!openMenu);
-            console.log(!openMenu);
-          }}
-        />
-      </div>
-      {openMenu && <NavItems mobile setopenMenu={setopenMenu} />}
+          <TiThMenu
+            className=" sm:hidden z-50"
+            onClick={() => {
+              setopenMenu(!openMenu);
+              console.log(!openMenu);
+            }}
+          />
+        </div>
+        {openMenu && <NavItems mobile setopenMenu={setopenMenu} />}
+      </nav>
     </>
   );
 };
@@ -35,11 +37,7 @@ const NavItems = ({ mobile, setopenMenu }) => {
         >
           {" "}
           <li className="sm:hidden   w-full  flex justify-end  m-[3vh] p-3">
-            <RxCross1
-              onClick={() => {
-                setopenMenu(false);
-              }}
-            />
+            <RxCross1 onClick={() => setopenMenu(false)} />
           </li>
           <li>
             <a
